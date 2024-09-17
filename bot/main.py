@@ -2,8 +2,7 @@ import os
 import telebot
 import yfinance as yf
 
-# API_KEY = os.getenv('API_KEY')
-API_KEY='7385378974:AAG0K8J7jGgmODjrC1s2pgdyynoyvhFT7U8'
+API_KEY = os.getenv('API_KEY')
 
 bot = telebot.TeleBot(API_KEY)
 
